@@ -16,6 +16,8 @@
 | :set       | Show set options                      |
 | :showmaps  | Show user defined mapped keys         |
 | .          | Repeat previous action                |
+| u          | Undo                                  |
+| Ctrl+r     | Redo                                  |
 
 ### Navigation
 
