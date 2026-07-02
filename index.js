@@ -1,5 +1,13 @@
 const DOM = {
   tables: document.getElementById('tables'),
+  links: document.getElementById('links'),
+}
+
+function urlSlug(text) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-');
 }
 
 async function fetchFile(filename, type='json') {
@@ -29,6 +37,10 @@ async function render() {
   let color = 0;
   readmeArr.forEach(item => {
     const article = document.createElement('article');
+    const link = document.createElement('li');
+    const slug = urlSlug(item.title);
+    link.innerHTML = `<a href="#${slug}">${item.title}</a>`;
+    article.id = slug;
     const header = document.createElement('header');
     const body = document.createElement('body');
     header.innerHTML = `<h5 class="color-${color}">${item.title}</h5>`;
@@ -46,6 +58,7 @@ async function render() {
     table.appendChild(tbody);
     article.appendChild(table);
     DOM.tables.appendChild(article);
+    DOM.links.appendChild(link);
     color += 1;
   });
 }
