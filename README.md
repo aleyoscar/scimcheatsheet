@@ -83,13 +83,23 @@
 
 ### Edit mode
 
-| Key | Description |
-|---|---|
-| e | Enter numerical EDIT mode |
-| E | Enter text EDIT mode |
-| EDIT i/= | Insert mode at cursor |
-| EDIT I | Insert at the beginning of the cell |
-| EDIT A | Insert at the end of the cell |
+| Key               | Description                                          |
+|-------------------|------------------------------------------------------|
+| e                 | Enter numerical EDIT mode                            |
+| E                 | Enter text EDIT mode                                 |
+| i/=               | Insert mode before cursor                            |
+| a                 | Insert mode after cursor                             |
+| I                 | Insert at the beginning of the cell                  |
+| A                 | Insert at the end of the cell                        |
+| w                 | Move to the beginning of the next word               |
+| e                 | Move to the end of the current/next word             |
+| b                 | Move to the beginning of the current/previous word   |
+| 0                 | Move to the beginning of the line                    |
+| $                 | Move to the end of the line                          |
+| f{char} / F{char} | Move to the next/previous occurence of {char}        |
+| r{char}           | Replace character under cursor with {char}           |
+| d{e/w/$/0}        | Delete until word end/beginning / line end/beginning |
+| x                 | Delete the character under the cursor                |
 
 ### Numeric Functions
 
