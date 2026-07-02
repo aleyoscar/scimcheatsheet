@@ -71,6 +71,16 @@
 | p          | Paste row below, paste column left  |
 | t          | Paste row above, paste column right |
 
+### Cell Manipulation
+
+| Key        | Description                    |
+|------------|--------------------------------|
+| yy         | Yank cell content              |
+| dd         | Delete/yank cell content       |
+| p / t      | Paste cell content             |
+| Pv / Tv    | Paste cell value (not formula) |
+| s{j/k/l/h} | Shift cell down/up/right/left  |
+
 ### Numeric Functions
 
 | Key                     | Description                        |
