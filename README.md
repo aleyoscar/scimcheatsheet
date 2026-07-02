@@ -101,6 +101,30 @@
 | d{e/w/$/0}        | Delete until word end/beginning / line end/beginning |
 | x                 | Delete the character under the cursor                |
 
+### Visual Mode
+
+| Key        | Description                                           |
+|------------|-------------------------------------------------------|
+| v          | Enter VISUAL mode from NORMAL mode                    |
+| Ctrl+v     | Enter VISUAL mode from INSERT or COMMAND mode         |
+| h j k l    | "← ↓ ↑ →"                                             |
+| 0          | Move to column A                                      |
+| $          | Move forward to last valid column of current row      |
+| ^          | Move up to row 0                                      |
+| #          | Move down to the last valid row of the current column |
+| y          | Yank the selected cell or range                       |
+| p          | Paste the previously yanked cell or range             |
+| P          | Like 'p' but adjust all cell references               |
+| x / dd     | Delete and yank current range                         |
+| G          | Move to last valid cell of the sheet                  |
+| Zr         | Zap (hide) the rows covered in range                  |
+| Zc         | Zap (hide) the columns covered in range               |
+| f          | Freeze the selected range                             |
+| Sr         | Show rows hidden covered in range                     |
+| Sc         | Show columns hidden covered in range                  |
+| { } 'Pipe' | Align content of range left/right/center              |
+| Ctrl+j     | Auto-resize columns in range to content               |
+
 ### Numeric Functions
 
 | Key                     | Description                        |
