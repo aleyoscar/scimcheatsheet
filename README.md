@@ -56,6 +56,21 @@
 | f↑ / fk  | Decrease row height                      |
 | aa       | Auto-resize cell to fit contents         |
 
+### Row/Column Manipulation
+
+| Key        | Description                         |
+|------------|-------------------------------------|
+| ir         | Insert row above                    |
+| or         | Insert row below                    |
+| ic         | Insert column left                  |
+| oc         | Insert column right                 |
+| dr         | Delete/yank row                     |
+| dc         | Delete/yank column                  |
+| yr         | Yank row                            |
+| yc         | Yank column                         |
+| p          | Paste row below, paste column left  |
+| t          | Paste row above, paste column right |
+
 ### Numeric Functions
 
 | Key                     | Description                        |
