@@ -81,6 +81,16 @@
 | Pv / Tv    | Paste cell value (not formula) |
 | s{j/k/l/h} | Shift cell down/up/right/left  |
 
+### Edit mode
+
+| Key | Description |
+|---|---|
+| e | Enter numerical EDIT mode |
+| E | Enter text EDIT mode |
+| EDIT i/= | Insert mode at cursor |
+| EDIT I | Insert at the beginning of the cell |
+| EDIT A | Insert at the end of the cell |
+
 ### Numeric Functions
 
 | Key                     | Description                        |
