@@ -87,10 +87,10 @@
 |-------------------|------------------------------------------------------|
 | e                 | Enter numerical EDIT mode                            |
 | E                 | Enter text EDIT mode                                 |
-| i/=               | Insert mode before cursor                            |
-| a                 | Insert mode after cursor                             |
-| I                 | Insert at the beginning of the cell                  |
-| A                 | Insert at the end of the cell                        |
+| i/=               | INSERT mode before cursor                            |
+| a                 | INSERT mode after cursor                             |
+| I                 | INSERT mode at the beginning of the cell             |
+| A                 | INSERT mode at the end of the cell                   |
 | w                 | Move to the beginning of the next word               |
 | e                 | Move to the end of the current/next word             |
 | b                 | Move to the beginning of the current/previous word   |
