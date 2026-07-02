@@ -40,6 +40,22 @@
 | Ctrl+f   | Scroll a page down                               |
 | Ctrl+b   | Scroll a page up                                 |
 
+### Formatting
+
+| Key      | Description                              |
+|----------|------------------------------------------|
+| {        | Align Left                               |
+| 'Pipe'   | Align Center                             |
+| }        | Align Right                              |
+| f{+/-}   | Increase/Decrease decimal precision      |
+| {+/-}    | Increase/Decrease numerical value        |
+| {n}{+/-} | Increase/Decrease numerical value by {n} |
+| f< / fh  | Decrease column width                    |
+| f> / fl  | Increase column width                    |
+| f↓ / fj  | Increase row height                      |
+| f↑ / fk  | Decrease row height                      |
+| aa       | Auto-resize cell to fit contents         |
+
 ### Numeric Functions
 
 | Key                     | Description                        |
