@@ -39,4 +39,6 @@ td.key {
 .color-14 { color: var(--color-14); }
 .color-15 { color: var(--color-15); }
 
+.flex { display: flex; }
 .monospace { font-family: monospace; }
+.space-between { justify-content: space-between; }
