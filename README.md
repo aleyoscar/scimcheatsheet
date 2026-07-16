@@ -1,5 +1,7 @@
 # sc-im Cheatsheet
 
+[aleyoscar.github.io/scimcheatsheet](https://aleyoscar.github.io/scimcheatsheet)
+
 ## Commands
 
 ### General
