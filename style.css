@@ -21,6 +21,7 @@ td { background-color: transparent; }
 td.key {
   width: 13rem;
 }
+ul { list-style-type: none; }
 
 .color-0 { color: var(--color-0); }
 .color-1 { color: var(--color-1); }
@@ -40,5 +41,9 @@ td.key {
 .color-15 { color: var(--color-15); }
 
 .flex { display: flex; }
+.gapx-pico { column-gap: var(--pico-spacing); }
 .monospace { font-family: monospace; }
+.hover-underline:active, .hover-underline:hover { text-decoration: underline; }
+.hover-underline { text-decoration: none; }
 .space-between { justify-content: space-between; }
+.wrap { flex-wrap: wrap; }

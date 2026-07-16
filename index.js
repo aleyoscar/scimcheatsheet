@@ -37,9 +37,11 @@ async function render() {
   let color = 0;
   readmeArr.forEach(item => {
     const article = document.createElement('article');
-    const link = document.createElement('li');
+    const link = document.createElement('a');
     const slug = urlSlug(item.title);
-    link.innerHTML = `<a href="#${slug}">${item.title}</a>`;
+    link.href = `#${slug}`;
+    link.classList.add(`color-${color}`, 'hover-underline');
+    link.textContent = item.title;
     article.id = slug;
     const header = document.createElement('header');
     const body = document.createElement('body');
@@ -72,8 +74,8 @@ function parseMarkdown(markdownText) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
 
-    // Skip empty lines and header 1/2
-    if (!line || line.startsWith('# ') || line.startsWith('## ')) {
+    // Skip empty lines, header 1/2 and link
+    if (!line || line.startsWith('# ') || line.startsWith('## ') || line.startsWith('[')) {
       continue;
     }
 
