@@ -18,6 +18,7 @@
 | .          | Repeat previous action                |
 | u          | Undo                                  |
 | Ctrl+r     | Redo                                  |
+| @          | Recalculate expressions               |
 
 ### Navigation
 
